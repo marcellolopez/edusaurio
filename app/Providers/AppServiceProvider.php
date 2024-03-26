@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\View;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,6 +24,16 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        /** HEADER **/
+         
+        View::share('site_title', 'El club de Edusaurio'); // Título del sitio
+
+        /** NAVBAR **/
+                
+        View::share('logo_title', 'El club de Edusaurio'); // Título del sitio
+
+        /** BANNER **/  
+
+        View::share('banner_title', false); //Título H1
     }
 }
