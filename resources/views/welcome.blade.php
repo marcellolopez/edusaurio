@@ -32,11 +32,12 @@
 
             <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#section-home">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section-portfolio">Galería</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section-about">Sobre mí</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section-contact">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-el-club">El Club</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-bio">Bio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-puzzlesear">Puzzlesear</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-video">Videos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-fotos">Fotos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-contacto">Contacto</a></li>
                 </ul>
             </div>
         </div>
@@ -45,14 +46,13 @@
 
 
 
-    <section class="site-hero" style="background-image: url(images/image_01.jpeg);" id="section-home"
+    <section class="site-hero" style="background-image: url(images/img01.jpeg);" id="section-home"
         data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row intro-text align-items-center justify-content-center">
                 <div class="col-md-10 text-center pt-5">
 
-                    <h1 class="site-heading site-animate">Bienvenidos al <strong class="d-block">Club de
-                            Edusaurio</strong>
+                    <h1 class="site-heading site-animate">Bienvenidos al club
                     </h1>
                     <strong class="d-block text-white text-uppercase letter-spacing">Aquí podrás encontrar información
                         sobre Edusaurio y nuestras actividades artísticas y de entretención.</strong>
@@ -63,18 +63,121 @@
     </section> <!-- section -->
 
 
+    <section class="site-section" id="section-el-club">
+        <div class="container">
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-6 pr-lg-4 mb-5 mb-lg-0">
+                    <div class="section-heading">
+                        <h2>El CLub de Edusaurio</h2>
+                    </div>
+                    <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Radio Alegría y
+                        redes sociales Tik Tok.
+                    </p> 
+                    <p class="lead">Su temática; es compartir distintos tipos de música y mantener una
+                        entretenida conversación con el chat de los auditores y espectadores.<br> Se transmite: De lunes a
+                        viernes de 22:00Hrs a 24:00Hrs. Cunducción : Eduardo Contreras: " Edusaurio"
+                        Puzzlesear. Programa de entretención y concursos Online a través de @redsuctv, en las
+                        plataformas de Youtube, Facebook e Instagram. Cada lunes 2 invitados, pasan divertidas pruebas
+                        de conocimiento y rapidez mental.
+                    </p>
+                    <p class="lead">
+                        <strong>Conducción: Eduardo Contreras "Edusaurio" </strong>
+                        <br>
+                        <strong>Dirección : Jpérezvidela</strong>
+                    </p>
+                    <p>
+
+                    </p>                    
+                    
+                </div>
+                <div class="col-lg-6 pl-lg-4">
+                    <img src="images/img02.jpeg" alt="Image placeholder" class="img-fluid rounded-circle">
+                </div>
+            </div>
 
 
+        </div>
+    </section>
+
+    <section class="site-section" id="section-bio">
+        <div class="container">
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
+                    <img src="images/image_01.jpeg" alt="Image placeholder" class="img-fluid">
+                </div>
+                <div class="col-lg-5 pl-lg-5">
+                    <div class="section-heading">
+                        <h2>Sobre <strong>Mí</strong></h2>
+                    </div>
+                    <p class="lead">Eduardo Contreras, más conocido como <strong>EDUSAURIO</strong> en el mundo de la comedia, es un hombre polifacético que ha explorado una amplia gama de actividades a lo largo de su vida. </p>
+                    <p class="lead">Desde su tiempo como marino hasta su experiencia como ingeniero mecánico y piloto de avión, Eduardo ha demostrado una curiosidad insaciable y una determinación inquebrantable.</p>
+                    <p class="lead">Su pasión por comunicar y entretener se refleja en su trabajo como comediante y animador, donde combina sus diversas experiencias para ofrecer una perspectiva única y divertida al público.</p>
+                    <p>En resumen, Eduardo es un individuo versátil cuya vida está marcada por la aventura y el deseo de compartir alegría con los demás.</p>
+                    <p class="mb-5  "></p>
+
+                    <p>
+                        <a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll d-none">Hire
+                            Me</a>
+                        <a href="#" class="btn btn-secondary px-4 py-2 btn-sm d-none">Download CV</a>
+                    </p>
+                </div>
+            </div>
 
 
-    <section class="site-section" id="section-portfolio">
+        </div>
+    </section>
+
+    <section class="site-section" id="section-puzzlesear">
+        <div class="container">
+            <div class="row mb-5 align-items-center">
+                <div class="col-lg-6 pr-lg-4 mb-5 mb-lg-0">
+                    <div class="section-heading">
+                        <h2>Puzzlesear</h2>
+                    </div>
+                    <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Radio Alegría y
+                        redes sociales Tik Tok.
+                    </p> 
+                    <p class="lead">Su temática; es compartir distintos tipos de música y mantener una
+                        entretenida conversación con el chat de los auditores y espectadores.<br> Se transmite: De lunes a
+                        viernes de 22:00Hrs a 24:00Hrs. Cunducción : Eduardo Contreras: " Edusaurio"
+                        Puzzlesear. Programa de entretención y concursos Online a través de @redsuctv, en las
+                        plataformas de Youtube, Facebook e Instagram. Cada lunes 2 invitados, pasan divertidas pruebas
+                        de conocimiento y rapidez mental.
+                    </p>
+                    <p class="lead">
+                        <strong>Conducción: Eduardo Contreras "Edusaurio" </strong>
+                        <br>
+                        <strong>Dirección : Jpérezvidela</strong>
+                    </p>
+                    <p>
+
+                    </p>                    
+                    
+                </div>
+                <div class="col-lg-6 pl-lg-4">
+                    <img src="images/img03.jpeg" alt="Image placeholder" class="img-fluid rounded-circle">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="site-section " id="section-video">
+        <div class="container">
+                <div class='sk-ww-youtube-channel-videos' data-embed-id='25402346'></div><script src='https://widgets.sociablekit.com/youtube-channel-videos/widget.js' async defer></script>
+          
+        </div>
+    </section> <!-- .section -->
+
+    <section class="site-section" id="section-fotos">
         <div class="container">
             <div class="row">
                 <div class="section-heading text-center col-md-12">
-                    <h2>Featured <strong>Portfolio</strong></h2>
+                    <h2>Fotos</h2>
                 </div>
             </div>
-            <div class="filters">
+            <div class="filters d-none">
                 <ul>
                     <li class="active" data-filter="*">All</li>
                     <li data-filter=".packaging">Packaging</li>
@@ -90,9 +193,9 @@
                         <div class="relative">
                             <div class="thumb">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid" src="images/p1.jpg" alt="">
+                                <img class="image img-fluid" src="images/img01.jpeg" alt="">
                             </div>
-                            <a href="images/p1.jpg" class="img-pop-up">
+                            <a href="images/img01.jpeg" class="img-pop-up">
                                 <div class="middle">
                                     <div class="text align-self-center d-flex"><img src="images/preview.png"
                                             alt=""></div>
@@ -108,9 +211,9 @@
                         <div class="relative">
                             <div class="thumb">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid" src="images/p2.jpg" alt="">
+                                <img class="image img-fluid" src="images/img02.jpeg" alt="">
                             </div>
-                            <a href="images/p2.jpg" class="img-pop-up">
+                            <a href="images/img02.jpeg" class="img-pop-up">
                                 <div class="middle">
                                     <div class="text align-self-center d-flex"><img src="images/preview.png"
                                             alt=""></div>
@@ -126,9 +229,9 @@
                         <div class="relative">
                             <div class="thumb">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid" src="images/p3.jpg" alt="">
+                                <img class="image img-fluid" src="images/img03.jpeg" alt="">
                             </div>
-                            <a href="images/p3.jpg" class="img-pop-up">
+                            <a href="images/img03.jpeg" class="img-pop-up">
                                 <div class="middle">
                                     <div class="text align-self-center d-flex"><img src="images/preview.png"
                                             alt=""></div>
@@ -145,9 +248,9 @@
                         <div class="relative">
                             <div class="thumb">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid" src="images/p4.jpg" alt="">
+                                <img class="image img-fluid" src="images/img01.jpeg" alt="">
                             </div>
-                            <a href="images/p4.jpg" class="img-pop-up">
+                            <a href="images/img01.jpg" class="img-pop-up">
                                 <div class="middle">
                                     <div class="text align-self-center d-flex"><img src="images/preview.png"
                                             alt=""></div>
@@ -163,9 +266,9 @@
                         <div class="relative">
                             <div class="thumb">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid" src="images/p5.jpg" alt="">
+                                <img class="image img-fluid" src="images/img02.jpeg" alt="">
                             </div>
-                            <a href="images/p5.jpg" class="img-pop-up">
+                            <a href="images/img02.jpeg" class="img-pop-up">
                                 <div class="middle">
                                     <div class="text align-self-center d-flex"><img src="images/preview.png"
                                             alt=""></div>
@@ -181,9 +284,9 @@
                         <div class="relative">
                             <div class="thumb">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid" src="images/p6.jpg" alt="">
+                                <img class="image img-fluid" src="images/img03.jpeg" alt="">
                             </div>
-                            <a href="images/p6.jpg" class="img-pop-up">
+                            <a href="images/img03.jpeg" class="img-pop-up">
                                 <div class="middle">
                                     <div class="text align-self-center d-flex"><img src="images/preview.png"
                                             alt=""></div>
@@ -202,339 +305,14 @@
     <!-- .section -->
 
 
-    <section class="site-section " id="section-resume">
+
+
+    <section class="site-section" id="section-contacto">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mb-5">
                     <div class="section-heading text-center">
-                        <h2>My <strong>Resume</strong></h2>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="resume-item mb-4">
-                        <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-                        <h3>Masteral in Information Technology</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
-                        <span class="school">New York University</span>
-                    </div>
-
-                    <div class="resume-item mb-4">
-                        <span class="date"><span class="icon-calendar"></span> March 2013 - Present
-                            Deacember.</span>
-                        <h3>Masteral in Information Technology</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
-                        <span class="school">New York University</span>
-                    </div>
-
-                    <div class="resume-item mb-4">
-                        <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-                        <h3>Masteral in Information Technology</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
-                        <span class="school">New York University</span>
-                    </div>
-
-                    <div class="resume-item mb-4">
-                        <span class="date"><span class="icon-calendar"></span> March 2013 - Present
-                            Deacember.</span>
-                        <h3>Masteral in Information Technology</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
-                        <span class="school">New York University</span>
-                    </div>
-
-                </div>
-                <div class="col-md-6">
-
-
-                    <h2 class="mb-5">Experience</h2>
-
-                    <div class="resume-item mb-4">
-                        <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-                        <h3>Lead Product Designer</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
-                        <span class="school">Github</span>
-                    </div>
-
-                    <div class="resume-item mb-4">
-                        <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-                        <h3>Lead Product Designer</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
-                        <span class="school">Facebook</span>
-                    </div>
-
-                    <div class="resume-item mb-4">
-                        <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-                        <h3>Lead Product Designer</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
-                        <span class="school">Twitter</span>
-                    </div>
-
-                    <div class="resume-item mb-4">
-                        <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-                        <h3>Lead Product Designer</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic.</p>
-                        <span class="school">Shopify</span>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-    </section> <!-- .section -->
-
-    <section class="site-section" id="section-about">
-        <div class="container">
-            <div class="row mb-5 align-items-center">
-                <div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
-                    <img src="images/image_01.jpeg" alt="Image placeholder" class="img-fluid">
-                </div>
-                <div class="col-lg-5 pl-lg-5">
-                    <div class="section-heading">
-                        <h2>Sobre <strong>Mí</strong></h2>
-                    </div>
-                    <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Radio Alegría y
-                        redes sociales Tik Tok. Su temática; es compartir distintos tipos de música y mantener una
-                        entretenida conversación con el chat de los auditores y espectadores. Se transmite: De lunes a
-                        viernes de 22:00Hrs a 24:00Hrs. Cunducción : Eduardo Contreras: " Edusaurio"
-                        Puzzlesear. Programa de entretención y concursos Online a través de @redsuctv, en las
-                        plataformas de Youtube, Facebook e Instagram. Cada lunes 2 invitados, pasan divertidas pruebas
-                        de conocimiento y rapidez mental.
-                        Conducción: Eduardo Contreras "Edusaurio" Dirección : Jpérezvidela</p>
-                    <p class="mb-5  ">Eduardo Contreras, más conocido en el circuito de la comedia como EDUSAURIO .
-                        Aparte de ser comediante y animador, es un hombre muy inquieto y en su vida, ha realizado muchas
-                        actividades dignas de destacar: Marino, ingeniero mecánico, piloto de avión, emprendedor y le
-                        encanta comunicar y entretener.</p>
-
-                    <p>
-                        <a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll d-none">Hire
-                            Me</a>
-                        <a href="#" class="btn btn-secondary px-4 py-2 btn-sm d-none">Download CV</a>
-                    </p>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-
-    <section class="site-section">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-12">
-                    <div class="section-heading text-center">
-                        <h2>Client <strong>Testimonial</strong></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-
-                    <div class="block-47 d-flex mb-5">
-                        <div class="block-47-image">
-                            <img src="images/person_1.jpg" alt="Image placeholder" class="img-fluid">
-                        </div>
-                        <blockquote class="block-47-quote">
-                            <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and
-                                Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at
-                                the coast of the Semantics, a large language ocean.&rdquo;</p>
-                            <cite class="block-47-quote-author">&mdash; Ethan McCown, CEO <a href="#">XYZ
-                                    Inc.</a></cite>
-                        </blockquote>
-                    </div>
-
-                </div>
-                <div class="col-md-6">
-
-                    <div class="block-47 d-flex mb-5">
-                        <div class="block-47-image">
-                            <img src="images/person_2.jpg" alt="Image placeholder" class="img-fluid">
-                        </div>
-                        <blockquote class="block-47-quote">
-                            <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and
-                                Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at
-                                the coast of the Semantics, a large language ocean.&rdquo;</p>
-                            <cite class="block-47-quote-author">&mdash; Craig Gowen, CEO <a href="#">XYZ
-                                    Inc.</a></cite>
-                        </blockquote>
-                    </div>
-
-                </div>
-
-                <div class="col-md-6">
-
-                    <div class="block-47 d-flex mb-5">
-                        <div class="block-47-image">
-                            <img src="images/person_3.jpg" alt="Image placeholder" class="img-fluid">
-                        </div>
-                        <blockquote class="block-47-quote">
-                            <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and
-                                Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at
-                                the coast of the Semantics, a large language ocean.&rdquo;</p>
-                            <cite class="block-47-quote-author">&mdash; Ethan McCown, CEO <a href="#">XYZ
-                                    Inc.</a></cite>
-                        </blockquote>
-                    </div>
-
-                </div>
-                <div class="col-md-6">
-
-                    <div class="block-47 d-flex mb-5">
-                        <div class="block-47-image">
-                            <img src="images/person_4.jpg" alt="Image placeholder" class="img-fluid">
-                        </div>
-                        <blockquote class="block-47-quote">
-                            <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and
-                                Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at
-                                the coast of the Semantics, a large language ocean.&rdquo;</p>
-                            <cite class="block-47-quote-author">&mdash; Craig Gowen, CEO <a href="#">XYZ
-                                    Inc.</a></cite>
-                        </blockquote>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <section class="site-section pb-0" id="section-services">
-        <div class="container">
-
-            <div class="row mb-4">
-                <div class="col-md-12">
-                    <div class="section-heading text-center">
-                        <h2>My <strong>Services</strong></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="col-md-6 col-lg-4 text-center mb-5">
-                    <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                        <span class="icon">
-                            <span class="icon-browser2"></span>
-                        </span>
-                        <h3 class="mb-4">Web Design</h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
-                            Semantics, a large language ocean.</p>
-                        <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 text-center mb-5">
-                    <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                        <span class="icon">
-                            <span class="icon-presentation"></span>
-                        </span>
-                        <h3 class="mb-4">Search Engine Optimization</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                            It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                        <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 text-center mb-5">
-                    <div class="site-service-item site-animate" data-animate-effect="fadeIn">
-                        <span class="icon">
-                            <span class="icon-video2"></span>
-                        </span>
-                        <h3 class="mb-4">Video Editing</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic life One day however a small line of blind text by the name of Lorem Ipsum
-                            decided to leave for the far World of Grammar.</p>
-                        <p><a href="#" class="site-link">Learn More <i class="icon-chevron-right"></i></a></p>
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <section class="site-section" id="section-blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 mb-5">
-                    <div class="section-heading text-center">
-                        <h2>Blog on <strong>Medium</strong></h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6 col-lg-4 mb-4">
-                    <div class="blog-entry">
-                        <a href="#"><img src="images/post_1.jpg" alt="Image placeholder"
-                                class="img-fluid"></a>
-                        <div class="blog-entry-text">
-                            <h3><a href="#">Creative Product Designer From Facebook</a></h3>
-                            <p class="mb-4">Even the all-powerful Pointing has no control about the blind texts it is
-                                an almost unorthographic.</p>
-
-                            <div class="meta">
-                                <a href="#"><span class="icon-calendar"></span> Aug 7, 2018</a>
-                                <a href="#"><span class="icon-bubble"></span> 5 Comments</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4 mb-4">
-                    <div class="blog-entry">
-                        <a href="#"><img src="images/post_2.jpg" alt="Image placeholder"
-                                class="img-fluid"></a>
-                        <div class="blog-entry-text">
-                            <h3><a href="#">Creative Product Designer From Facebook</a></h3>
-                            <p class="mb-4">Even the all-powerful Pointing has no control about the blind texts it is
-                                an almost unorthographic.</p>
-
-                            <div class="meta">
-                                <a href="#"><span class="icon-calendar"></span> Aug 7, 2018</a>
-                                <a href="#"><span class="icon-bubble"></span> 5 Comments</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4 mb-4">
-                    <div class="blog-entry">
-                        <a href="#"><img src="images/post_3.jpg" alt="Image placeholder"
-                                class="img-fluid"></a>
-                        <div class="blog-entry-text">
-                            <h3><a href="#">Creative Product Designer From Facebook</a></h3>
-                            <p class="mb-4">Even the all-powerful Pointing has no control about the blind texts it is
-                                an almost unorthographic.</p>
-
-                            <div class="meta">
-                                <a href="#"><span class="icon-calendar"></span> Aug 7, 2018</a>
-                                <a href="#"><span class="icon-bubble"></span> 5 Comments</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="site-section" id="section-contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 mb-5">
-                    <div class="section-heading text-center">
-                        <h2>Get <strong>In Touch</strong></h2>
+                        <h2>Hablemos</h2>
                     </div>
                 </div>
 
@@ -542,24 +320,24 @@
                     <form action="" class="site-form">
                         <h3 class="mb-5">Contáctame</h3>
                         <div class="form-group">
-                            <input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+                            <input type="text" class="form-control px-3 py-4" placeholder="Nombre">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+                            <input type="email" class="form-control px-3 py-4" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
+                            <input type="email" class="form-control px-3 py-4" placeholder="Móvil">
                         </div>
                         <div class="form-group mb-5">
-                            <textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+                            <textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Mensaje"></textarea>
                         </div>
                         <div class="form-group">
-                            <input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+                            <input type="submit" class="btn btn-primary  px-4 py-3" value="Enviar mensaje">
                         </div>
                     </form>
                 </div>
                 <div class="col-md-5 pl-md-5">
-                    <h3 class="mb-5">My Contact Details</h3>
+                    <h3 class="mb-5">Detalles de contacto</h3>
                     <ul class="site-contact-details">
                         <li>
                             <span class="text-uppercase">Email</span>
@@ -569,11 +347,11 @@
                             <span class="text-uppercase">Phone</span>
                             +30 976 1382 9921
                         </li>
-                        <li>
+                        <li class="d-none">
                             <span class="text-uppercase">Fax</span>
                             +30 976 1382 9922
                         </li>
-                        <li>
+                        <li class="d-none">
                             <span class="text-uppercase">Address</span>
                             San Francisco, CA <br>
                             4th Floor8 Lower <br>
