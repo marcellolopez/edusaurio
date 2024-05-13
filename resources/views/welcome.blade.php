@@ -70,18 +70,18 @@
                     <div class="section-heading">
                         <h2>El CLub de Edusaurio</h2>
                     </div>
-                    <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Radio Alegría y
+                    <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Radio Alegría Chile y
                         redes sociales Tik Tok.
                     </p> 
                     <p class="lead">Su temática; es compartir distintos tipos de música y mantener una
                         entretenida conversación con el chat de los auditores y espectadores.<br> Se transmite: De lunes a
-                        viernes de 22:00Hrs a 24:00Hrs. Cunducción : Eduardo Contreras: " Edusaurio"
+                        viernes de 22:00Hrs a 24:00Hrs. Cunducción : Eduardo Contreras Fierro: " Edusaurio"
                         Puzzlesear. Programa de entretención y concursos Online a través de @redsuctv, en las
                         plataformas de Youtube, Facebook e Instagram. Cada lunes 2 invitados, pasan divertidas pruebas
                         de conocimiento y rapidez mental.
                     </p>
                     <p class="lead">
-                        <strong>Conducción: Eduardo Contreras "Edusaurio" </strong>
+                        <strong>Conducción: Eduardo Contreras Fierro "Edusaurio" </strong>
                         <br>
                         <strong>Dirección : Jpérezvidela</strong>
                     </p>
@@ -109,7 +109,7 @@
                     <div class="section-heading">
                         <h2>Sobre <strong>Mí</strong></h2>
                     </div>
-                    <p class="lead">Eduardo Contreras, más conocido como <strong>EDUSAURIO</strong> en el mundo de la comedia, es un hombre polifacético que ha explorado una amplia gama de actividades a lo largo de su vida. </p>
+                    <p class="lead">Eduardo Contreras Fierro, más conocido como <strong>EDUSAURIO</strong> en el mundo de la comedia, es un hombre polifacético que ha explorado una amplia gama de actividades a lo largo de su vida. </p>
                     <p class="lead">Desde su tiempo como marino hasta su experiencia como ingeniero mecánico y piloto de avión, Eduardo ha demostrado una curiosidad insaciable y una determinación inquebrantable.</p>
                     <p class="lead">Su pasión por comunicar y entretener se refleja en su trabajo como comediante y animador, donde combina sus diversas experiencias para ofrecer una perspectiva única y divertida al público.</p>
                     <p>En resumen, Eduardo es un individuo versátil cuya vida está marcada por la aventura y el deseo de compartir alegría con los demás.</p>
@@ -134,18 +134,18 @@
                     <div class="section-heading">
                         <h2>Puzzlesear</h2>
                     </div>
-                    <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Radio Alegría y
+                    <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Radio Alegría Chile y
                         redes sociales Tik Tok.
                     </p> 
                     <p class="lead">Su temática; es compartir distintos tipos de música y mantener una
                         entretenida conversación con el chat de los auditores y espectadores.<br> Se transmite: De lunes a
-                        viernes de 22:00Hrs a 24:00Hrs. Cunducción : Eduardo Contreras: " Edusaurio"
+                        viernes de 22:00Hrs a 24:00Hrs. Cunducción : Eduardo Contreras Fierro: " Edusaurio"
                         Puzzlesear. Programa de entretención y concursos Online a través de @redsuctv, en las
                         plataformas de Youtube, Facebook e Instagram. Cada lunes 2 invitados, pasan divertidas pruebas
                         de conocimiento y rapidez mental.
                     </p>
                     <p class="lead">
-                        <strong>Conducción: Eduardo Contreras "Edusaurio" </strong>
+                        <strong>Conducción: Eduardo Contreras Fierro "Edusaurio" </strong>
                         <br>
                         <strong>Dirección : Jpérezvidela</strong>
                     </p>
