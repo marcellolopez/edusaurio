@@ -194,7 +194,7 @@
                         <div class="relative">
                             <div class="thumb">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid shadow-img2" src="gallery/001.jpeg" alt="">
+                                <img class="image img-fluid shadow-img2" src="gallery/006.jpeg" alt="">
                             </div>
                             <a href="gallery/001.jpeg" class="img-pop-up shadow-img">
                                 <div class="middle">
@@ -250,6 +250,42 @@
                             <div class="thumb">
                                 <div class="overlay overlay-bg"></div>
                                 <img class="image img-fluid shadow-img2" src="gallery/004.jpeg" alt="">
+                            </div>
+                            <a href="gallery/001.jpg" class="img-pop-up shadow-img">
+                                <div class="middle">
+                                    <div class="text align-self-center d-flex"><img src="images/preview.png"
+                                            alt=""></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="p-inner">
+                            <h4> </h4>
+                            <div class="cat"></div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio col-sm-4 all packaging">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid shadow-img2" src="gallery/005.jpeg" alt="">
+                            </div>
+                            <a href="gallery/001.jpg" class="img-pop-up shadow-img">
+                                <div class="middle">
+                                    <div class="text align-self-center d-flex"><img src="images/preview.png"
+                                            alt=""></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="p-inner">
+                            <h4> </h4>
+                            <div class="cat"></div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio col-sm-4 all packaging">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid shadow-img2" src="gallery/001.jpeg" alt="">
                             </div>
                             <a href="gallery/001.jpg" class="img-pop-up shadow-img">
                                 <div class="middle">
