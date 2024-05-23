@@ -68,17 +68,16 @@
             <div class="row mb-5 align-items-center">
                 <div class="col-lg-6 pr-lg-4 mb-5 mb-lg-0">
                     <div class="section-heading">
-                        <h2>El CLub de Edusaurio</h2>
+                        <h2 class="text-black">El CLub de Edusaurio</h2>
                     </div>
-                    <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Radio Alegría Chile y
+                    <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Radio Alegría Chile
+                        y
                         redes sociales Tik Tok.
-                    </p> 
+                    </p>
                     <p class="lead">Su temática; es compartir distintos tipos de música y mantener una
-                        entretenida conversación con el chat de los auditores y espectadores.<br> Se transmite: De lunes a
-                        viernes de 22:00Hrs a 24:00Hrs. Cunducción : Eduardo Contreras Fierro: " Edusaurio"
-                        Puzzlesear. Programa de entretención y concursos Online a través de @redsuctv, en las
-                        plataformas de Youtube, Facebook e Instagram. Cada lunes 2 invitados, pasan divertidas pruebas
-                        de conocimiento y rapidez mental.
+                        entretenida conversación con el chat de los auditores y espectadores.<br> Se transmite: De lunes
+                        a
+                        viernes de 22:00Hrs a 24:00Hrs.
                     </p>
                     <p class="lead">
                         <strong>Conducción: Eduardo Contreras Fierro "Edusaurio" </strong>
@@ -87,11 +86,11 @@
                     </p>
                     <p>
 
-                    </p>                    
-                    
+                    </p>
+
                 </div>
                 <div class="col-lg-6 pl-lg-4">
-                    <img src="images/img02.jpeg" alt="Image placeholder" class="img-fluid rounded-circle">
+                    <img src="images/img02.jpeg" alt="Image placeholder" class="img-fluid rounded-circle shadow-img">
                 </div>
             </div>
 
@@ -109,10 +108,17 @@
                     <div class="section-heading">
                         <h2>Sobre <strong>Mí</strong></h2>
                     </div>
-                    <p class="lead">Eduardo Contreras Fierro, más conocido como <strong>EDUSAURIO</strong> en el mundo de la comedia, es un hombre polifacético que ha explorado una amplia gama de actividades a lo largo de su vida. </p>
-                    <p class="lead">Desde su tiempo como marino hasta su experiencia como ingeniero mecánico y piloto de avión, Eduardo ha demostrado una curiosidad insaciable y una determinación inquebrantable.</p>
-                    <p class="lead">Su pasión por comunicar y entretener se refleja en su trabajo como comediante y animador, donde combina sus diversas experiencias para ofrecer una perspectiva única y divertida al público.</p>
-                    <p>En resumen, Eduardo es un individuo versátil cuya vida está marcada por la aventura y el deseo de compartir alegría con los demás.</p>
+                    <p class="lead">Eduardo Contreras Fierro, más conocido como <strong>EDUSAURIO</strong> en el mundo
+                        de la comedia, es un hombre polifacético que ha explorado una amplia gama de actividades a lo
+                        largo de su vida. </p>
+                    <p class="lead">Desde su tiempo como marino hasta su experiencia como ingeniero mecánico y piloto
+                        de avión, Eduardo ha demostrado una curiosidad insaciable y una determinación inquebrantable.
+                    </p>
+                    <p class="lead">Su pasión por comunicar y entretener se refleja en su trabajo como comediante y
+                        animador, donde combina sus diversas experiencias para ofrecer una perspectiva única y divertida
+                        al público.</p>
+                    <p>En resumen, Eduardo es un individuo versátil cuya vida está marcada por la aventura y el deseo de
+                        compartir alegría con los demás.</p>
                     <p class="mb-5  "></p>
 
                     <p>
@@ -132,15 +138,9 @@
             <div class="row mb-5 align-items-center">
                 <div class="col-lg-6 pr-lg-4 mb-5 mb-lg-0">
                     <div class="section-heading">
-                        <h2>Puzzlesear</h2>
+                        <h2 class="text-black">Puzzlesear</h2>
                     </div>
-                    <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Radio Alegría Chile y
-                        redes sociales Tik Tok.
-                    </p> 
-                    <p class="lead">Su temática; es compartir distintos tipos de música y mantener una
-                        entretenida conversación con el chat de los auditores y espectadores.<br> Se transmite: De lunes a
-                        viernes de 22:00Hrs a 24:00Hrs. Cunducción : Eduardo Contreras Fierro: " Edusaurio"
-                        Puzzlesear. Programa de entretención y concursos Online a través de @redsuctv, en las
+                    <p class="lead">Programa de entretención y concursos Online a través de @redsuctv, en las
                         plataformas de Youtube, Facebook e Instagram. Cada lunes 2 invitados, pasan divertidas pruebas
                         de conocimiento y rapidez mental.
                     </p>
@@ -151,11 +151,11 @@
                     </p>
                     <p>
 
-                    </p>                    
-                    
+                    </p>
+
                 </div>
                 <div class="col-lg-6 pl-lg-4">
-                    <img src="images/img03.jpeg" alt="Image placeholder" class="img-fluid rounded-circle">
+                    <img src="images/img03.jpeg" alt="Image placeholder" class="img-fluid rounded-circle shadow-img">
                 </div>
             </div>
 
@@ -165,8 +165,9 @@
 
     <section class="site-section " id="section-video">
         <div class="container">
-                <div class='sk-ww-youtube-channel-videos' data-embed-id='25402346'></div><script src='https://widgets.sociablekit.com/youtube-channel-videos/widget.js' async defer></script>
-          
+            <div class='sk-ww-youtube-channel-videos' data-embed-id='25402346'></div>
+            <script src='https://widgets.sociablekit.com/youtube-channel-videos/widget.js' async defer></script>
+
         </div>
     </section> <!-- .section -->
 
@@ -174,7 +175,7 @@
         <div class="container">
             <div class="row">
                 <div class="section-heading text-center col-md-12">
-                    <h2>Fotos</h2>
+                    <h2 class="text-black">Fotos</h2>
                 </div>
             </div>
             <div class="filters d-none">
@@ -193,9 +194,9 @@
                         <div class="relative">
                             <div class="thumb">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid" src="images/img01.jpeg" alt="">
+                                <img class="image img-fluid shadow-img2" src="gallery/001.jpeg" alt="">
                             </div>
-                            <a href="images/img01.jpeg" class="img-pop-up">
+                            <a href="gallery/001.jpeg" class="img-pop-up shadow-img">
                                 <div class="middle">
                                     <div class="text align-self-center d-flex"><img src="images/preview.png"
                                             alt=""></div>
@@ -203,17 +204,17 @@
                             </a>
                         </div>
                         <div class="p-inner">
-                            <h4>Square Box Mockup</h4>
-                            <div class="cat">Mockup</div>
+                            <h4></h4>
+                            <div class="cat"></div>
                         </div>
                     </div>
                     <div class="single-portfolio col-sm-4 all mockup">
                         <div class="relative">
                             <div class="thumb">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid" src="images/img02.jpeg" alt="">
+                                <img class="image img-fluid shadow-img2" src="gallery/002.jpeg" alt="">
                             </div>
-                            <a href="images/img02.jpeg" class="img-pop-up">
+                            <a href="gallery/002.jpeg" class="img-pop-up shadow-img">
                                 <div class="middle">
                                     <div class="text align-self-center d-flex"><img src="images/preview.png"
                                             alt=""></div>
@@ -221,17 +222,17 @@
                             </a>
                         </div>
                         <div class="p-inner">
-                            <h4>Product Box Package Mockup</h4>
-                            <div class="cat">Mockup</div>
+                            <h4></h4>
+                            <div class="cat"></div>
                         </div>
                     </div>
                     <div class="single-portfolio col-sm-4 all packaging">
                         <div class="relative">
                             <div class="thumb">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid" src="images/img03.jpeg" alt="">
+                                <img class="image img-fluid shadow-img2" src="gallery/003.jpeg" alt="">
                             </div>
-                            <a href="images/img03.jpeg" class="img-pop-up">
+                            <a href="gallery/003.jpeg" class="img-pop-up shadow-img">
                                 <div class="middle">
                                     <div class="text align-self-center d-flex"><img src="images/preview.png"
                                             alt=""></div>
@@ -240,17 +241,17 @@
 
                         </div>
                         <div class="p-inner">
-                            <h4>Creative Package Design</h4>
-                            <div class="cat">Packaging</div>
+                            <h4></h4>
+                            <div class="cat"></div>
                         </div>
                     </div>
                     <div class="single-portfolio col-sm-4 all packaging">
                         <div class="relative">
                             <div class="thumb">
                                 <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid" src="images/img01.jpeg" alt="">
+                                <img class="image img-fluid shadow-img2" src="gallery/004.jpeg" alt="">
                             </div>
-                            <a href="images/img01.jpg" class="img-pop-up">
+                            <a href="gallery/001.jpg" class="img-pop-up shadow-img">
                                 <div class="middle">
                                     <div class="text align-self-center d-flex"><img src="images/preview.png"
                                             alt=""></div>
@@ -258,44 +259,8 @@
                             </a>
                         </div>
                         <div class="p-inner">
-                            <h4>Packaging Brand</h4>
-                            <div class="cat">Packaging</div>
-                        </div>
-                    </div>
-                    <div class="single-portfolio col-sm-4 all typography">
-                        <div class="relative">
-                            <div class="thumb">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid" src="images/img02.jpeg" alt="">
-                            </div>
-                            <a href="images/img02.jpeg" class="img-pop-up">
-                                <div class="middle">
-                                    <div class="text align-self-center d-flex"><img src="images/preview.png"
-                                            alt=""></div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="p-inner">
-                            <h4>Isometric 3D Extrusion</h4>
-                            <div class="cat">Typography</div>
-                        </div>
-                    </div>
-                    <div class="single-portfolio col-sm-4 all photography">
-                        <div class="relative">
-                            <div class="thumb">
-                                <div class="overlay overlay-bg"></div>
-                                <img class="image img-fluid" src="images/img03.jpeg" alt="">
-                            </div>
-                            <a href="images/img03.jpeg" class="img-pop-up">
-                                <div class="middle">
-                                    <div class="text align-self-center d-flex"><img src="images/preview.png"
-                                            alt=""></div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="p-inner">
-                            <h4>White Space Photography</h4>
-                            <div class="cat">photography</div>
+                            <h4> </h4>
+                            <div class="cat"></div>
                         </div>
                     </div>
                 </div>
@@ -316,7 +281,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-7 mb-5 mb-md-0">
+                <div class="col-md-12 mb-5 mb-md-0">
                     <form action="" class="site-form">
                         <h3 class="mb-5">Contáctame</h3>
                         <div class="form-group">
@@ -336,7 +301,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-md-5 pl-md-5">
+                <div class="col-md-5 pl-md-5 d-none">
                     <h3 class="mb-5">Detalles de contacto</h3>
                     <ul class="site-contact-details">
                         <li>
@@ -373,7 +338,7 @@
                     Copyright &copy;
                     <script>
                         document.write(new Date().getFullYear());
-                    </script> All rights reserved | This template is made with <i
+                    </script> Todos los derechos reservados | This template is made with <i
                         class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
                         target="_blank" class="text-primary">Colorlib</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -382,7 +347,7 @@
 
             <div class="row mb-5">
                 <div class="col-md-12 text-center">
-                    <p>
+                    <p class="icons-footer">
                         <a href="#" class="social-item"><span class="icon-facebook2"></span></a>
                         <a href="#" class="social-item"><span class="icon-twitter"></span></a>
                         <a href="#" class="social-item"><span class="icon-instagram2"></span></a>
@@ -419,3 +384,35 @@
 </body>
 
 </html>
+
+<style>
+    #section-el-club,
+    #section-puzzlesear,
+    #section-fotos,
+    .site-footer {
+        background-color: white;
+        color: black;
+        text-shadow: 2px 2px lightgray
+    }
+
+    .text-black {
+        color: black;
+        text-shadow: 2px 2px lightgray
+    }
+
+    .icons-footer>a {
+        color: white
+    }
+
+    .icons-footer>a:hover {
+        color: #bac964
+    }
+
+    .shadow-img {
+        box-shadow: 10px 10px lightgray
+    }
+
+    .shadow-img2 {
+        box-shadow: 5px 5px lightgray
+    }
+</style>
