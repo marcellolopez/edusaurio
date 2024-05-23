@@ -165,6 +165,16 @@
 
     <section class="site-section " id="section-video">
         <div class="container">
+            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@edusaurio_standup"
+                data-unique-id="edusaurio_standup" data-embed-type="creator"
+                style="max-width: auto; min-width: 288px;">
+                <section> <a target="_blank"
+                        href="https://www.tiktok.com/@edusaurio_standup?refer=creator_embed">@edusaurio_standup</a>
+                </section>
+            </blockquote>
+            <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+        <div class="container">
             <div class='sk-ww-youtube-channel-videos' data-embed-id='25402346'></div>
             <script src='https://widgets.sociablekit.com/youtube-channel-videos/widget.js' async defer></script>
 
@@ -384,11 +394,14 @@
             <div class="row mb-5">
                 <div class="col-md-12 text-center">
                     <p class="icons-footer">
-                        <a href="#" class="social-item"><span class="icon-facebook2"></span></a>
-                        <a href="#" class="social-item"><span class="icon-twitter"></span></a>
-                        <a href="#" class="social-item"><span class="icon-instagram2"></span></a>
-                        <a href="#" class="social-item"><span class="icon-linkedin2"></span></a>
-                        <a href="#" class="social-item"><span class="icon-vimeo"></span></a>
+                        <a href="https://www.linkedin.com/in/edusaurio-el-club-6596b8290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            class="social-item"><span class="icon-linkedin"></span></a>
+                        <a href="https://www.instagram.com/edusaurio_standup?igsh=MTI3a3czcTN1M3J1OA=="
+                            class="social-item"><span class="icon-instagram2"></span></a>
+                        <a href="https://wa.me/c/56923723238" class="social-item"><span
+                                class="icon-whatsapp"></span></a>
+                        <a href="https://www.youtube.com/channel/UC2vGTn8Zm6LKqz0hB-gwGzg" class="social-item"><span
+                                class="icon-youtube"></span></a>
                     </p>
                 </div>
             </div>
@@ -437,7 +450,9 @@
     }
 
     .icons-footer>a {
-        color: white
+        color: white;
+        text-shadow: none;
+
     }
 
     .icons-footer>a:hover {
