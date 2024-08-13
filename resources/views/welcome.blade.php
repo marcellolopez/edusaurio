@@ -330,25 +330,25 @@
                 </div>
 
                 <div class="col-md-12 mb-5 mb-md-0">
-                    <form id="contact-form" action="post" class="site-form">
+                    <form id="contact-form" action="post" class="site-form" autocomplete="off">
                         @csrf
                         <h3 class="mb-5">Contáctame</h3>
                         <div class="form-group">
-                            <input id="nombre"  name="nombre" type=text" class="form-control px-3 py-4" placeholder="Nombre" style="color: white !important;">
+                            <input id="nombre" name="nombre" type="text" class="form-control px-3 py-4" placeholder="Nombre" style="color: white !important;" autocomplete="off">
                         </div>
                         <div class="form-group">
-                            <input id="email"  name="email"  type=email" class="form-control px-3 py-4" placeholder="Email" style="color: white !important;">
+                            <input id="email" name="email" type="email" class="form-control px-3 py-4" placeholder="Email" style="color: white !important;" autocomplete="off">
                         </div>
                         <div class="form-group">
-                        <input id="movil" name="movil" type="tel" pattern="[0-9]{9}" maxlength="9" class="form-control px-3 py-4" placeholder="Móvil (Ejemplo 987654321)" 
-                            style="color: white !important; -webkit-appearance: none; -moz-appearance: textfield; appearance: none;"
-                            oninput="this.value = this.value.slice(0, 9);">
+                            <input id="movil" name="movil" type="tel" pattern="[0-9]{9}" maxlength="9" class="form-control px-3 py-4" placeholder="Móvil (Ejemplo 987654321)" 
+                                style="color: white !important; -webkit-appearance: none; -moz-appearance: textfield; appearance: none;" 
+                                oninput="this.value = this.value.slice(0, 9);" autocomplete="off">
                         </div>
                         <div class="form-group mb-5">
-                            <textarea id="mensaje"  name="mensaje"  class=form-control px-3 py-4"cols="30" rows="10" placeholder="Mensaje" style="color: white !important;"></textarea>
+                            <textarea id="mensaje" name="mensaje" class="form-control px-3 py-4" cols="30" rows="10" placeholder="Mensaje" style="color: white !important;" autocomplete="off"></textarea>
                         </div>
                         <div class="form-group">
-                            <input type="submit" class="btn btn-primary  px-4 py-3" value="Enviar mensaje">
+                            <input type="submit" class="btn btn-primary px-4 py-3" value="Enviar mensaje">
                         </div>
                     </form>
                 </div>
@@ -510,6 +510,12 @@
                 beforeSend: function () {
                     $('#submit-btn').prop('disabled', true);
                 }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('#contact-form input, #contact-form textarea').forEach(function(element) {
+                element.value = '';
             });
         });
     });
