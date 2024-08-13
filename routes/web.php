@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Crea la ruta post llamada 'contact' en el controlador ContactController@enviarCorreoContacto
+Route::post('contact', [ContactController::class, 'enviarCorreoContacto'])->name('contact');

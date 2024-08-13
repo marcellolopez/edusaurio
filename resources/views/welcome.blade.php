@@ -14,7 +14,10 @@
 
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
 
-
+    <!-- Alertify CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Alertify default theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
 </head>
 
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
@@ -327,19 +330,22 @@
                 </div>
 
                 <div class="col-md-12 mb-5 mb-md-0">
-                    <form action="" class="site-form">
+                    <form id="contact-form" action="post" class="site-form">
+                        @csrf
                         <h3 class="mb-5">Contáctame</h3>
                         <div class="form-group">
-                            <input type="text" class="form-control px-3 py-4" placeholder="Nombre">
+                            <input id="nombre"  name="nombre" type=text" class="form-control px-3 py-4" placeholder="Nombre" style="color: white !important;">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control px-3 py-4" placeholder="Email">
+                            <input id="email"  name="email"  type=email" class="form-control px-3 py-4" placeholder="Email" style="color: white !important;">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control px-3 py-4" placeholder="Móvil">
+                        <input id="movil" name="movil" type="tel" pattern="[0-9]{9}" maxlength="9" class="form-control px-3 py-4" placeholder="Móvil (Ejemplo 987654321)" 
+                            style="color: white !important; -webkit-appearance: none; -moz-appearance: textfield; appearance: none;"
+                            oninput="this.value = this.value.slice(0, 9);">
                         </div>
                         <div class="form-group mb-5">
-                            <textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            <textarea id="mensaje"  name="mensaje"  class=form-control px-3 py-4"cols="30" rows="10" placeholder="Mensaje" style="color: white !important;"></textarea>
                         </div>
                         <div class="form-group">
                             <input type="submit" class="btn btn-primary  px-4 py-3" value="Enviar mensaje">
@@ -424,6 +430,8 @@
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script src="js/custom.js"></script>
+    <!-- Alertify JS -->
+    <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 
     <!-- Google Map -->
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
@@ -466,3 +474,43 @@
         box-shadow: 5px 5px lightgray
     }
 </style>
+
+<script>
+    $(document).ready(function () {
+        $('#contact-form').submit(function (e) {
+            e.preventDefault();
+            var formData = new FormData(this);
+            $.ajax({
+                type: 'POST',
+                url: '/contact',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (response) {
+                    $('#submit-btn').prop('disabled', false);
+                    alertify.success(response.message);
+                    $('#contact-form')[0].reset();
+                },
+                error: function (xhr, status, error) {
+                    $('#submit-btn').prop('disabled', false);
+                    
+                    if (xhr.status === 422) {
+                        var errors = xhr.responseJSON.errors;
+                        for (var field in errors) {
+                            if (errors.hasOwnProperty(field)) {
+                                alertify.error(errors[field][0]);
+                            }
+                        }
+                    } else {
+                        alertify.error('Error al enviar el mensaje');
+                    }
+
+                    console.log(xhr, status, error);
+                },
+                beforeSend: function () {
+                    $('#submit-btn').prop('disabled', true);
+                }
+            });
+        });
+    });
+</script>
