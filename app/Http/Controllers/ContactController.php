@@ -37,7 +37,7 @@ class ContactController extends Controller
             ];
 
             Mail::send('emails.contact', $data, function ($message) use ($data) {
-                $message->to('contacto@elclubdeedusaurio.cl')
+                $message->to('contacto@elclubdeedusaurio.cl','edusaurio2020@gmail.com')
                         ->subject('Nuevo mensaje de contacto');
             });
 
