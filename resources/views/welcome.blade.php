@@ -52,7 +52,7 @@
             <div class="row intro-text align-items-center justify-content-center">
                 <div class="col-md-10 text-center pt-5">
 
-                    <h1 class="site-heading site-animate">Bienvenidos al club
+                    <h1 class="site-heading site-animate">Bienvenidos al Club
                     </h1>
                     <strong class="d-block text-white text-uppercase letter-spacing">Aquí podrás encontrar información
                         sobre Edusaurio y nuestras actividades artísticas y de entretención.</strong>
@@ -68,11 +68,9 @@
             <div class="row mb-5 align-items-center">
                 <div class="col-lg-6 pr-lg-4 mb-5 mb-lg-0">
                     <div class="section-heading">
-                        <h2 class="text-black">El CLub de Edusaurio</h2>
+                        <h2 class="text-black">El Club de Edusaurio</h2>
                     </div>
-                    <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Radio Alegría Chile
-                        y
-                        redes sociales Tik Tok.
+                    <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Tik Tok.
                     </p>
                     <p class="lead">Su temática; es compartir distintos tipos de música y mantener una
                         entretenida conversación con el chat de los auditores y espectadores.<br> Se transmite: De lunes
@@ -111,13 +109,14 @@
                     <p class="lead">Eduardo Contreras Fierro, más conocido como <strong>EDUSAURIO</strong> en el mundo
                         de la comedia, es un hombre polifacético que ha explorado una amplia gama de actividades a lo
                         largo de su vida. </p>
-                    <p class="lead">Desde su tiempo como marino hasta su experiencia como ingeniero mecánico y piloto
+                    <p class="lead">Desde su tiempo como marino hasta su experiencia como Ingeniero Mecánico y piloto
                         de avión, Eduardo ha demostrado una curiosidad insaciable y una determinación inquebrantable.
                     </p>
                     <p class="lead">Su pasión por comunicar y entretener se refleja en su trabajo como comediante y
                         animador, donde combina sus diversas experiencias para ofrecer una perspectiva única y divertida
                         al público.</p>
-                    <p>En resumen, Eduardo es un individuo versátil cuya vida está marcada por la aventura y el deseo de
+                    <p class="lead">En resumen, Eduardo es un individuo versátil cuya vida está marcada por la
+                        aventura y el deseo de
                         compartir alegría con los demás.</p>
                     <p class="mb-5  "></p>
 
@@ -398,7 +397,7 @@
                             class="social-item"><span class="icon-linkedin"></span></a>
                         <a href="https://www.instagram.com/edusaurio_standup?igsh=MTI3a3czcTN1M3J1OA=="
                             class="social-item"><span class="icon-instagram2"></span></a>
-                        <a href="https://wa.me/c/56923723238" class="social-item"><span
+                        <a href="https://wa.me/56923723238" class="social-item"><span
                                 class="icon-whatsapp"></span></a>
                         <a href="https://www.youtube.com/channel/UC2vGTn8Zm6LKqz0hB-gwGzg" class="social-item"><span
                                 class="icon-youtube"></span></a>
