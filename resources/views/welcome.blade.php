@@ -65,12 +65,17 @@
         </div>
     </section> <!-- section -->
 
-
+    <section>
+        <div style="background-color: white;"> 
+            <iframe src="https://audio3.tustreaming.cl/cp/widgets/player/single/?p=7340" width="100%" height="100%" frameborder="0" scrolling="auto" title="https://tustreaming.cl/" style="" allowfullscreen></iframe> 
+        </div>
+    </section>
     <section class="site-section" id="section-el-club">
         <div class="container">
             <div class="row mb-5 align-items-center">
                 <div class="col-lg-6 pr-lg-4 mb-5 mb-lg-0">
                     <div class="section-heading">
+                        <br>
                         <h2 class="text-black">El Club de Edusaurio</h2>
                     </div>
                     <p class="lead">El Club de Edusaurio, es un programa Radial/Online a través de Tik Tok.
