@@ -67,7 +67,7 @@
 
     <section>
         <div style="background-color: white;"> 
-            <iframe src="https://audio3.tustreaming.cl/cp/widgets/player/single/?p=7340" width="100%" height="100%" frameborder="0" scrolling="auto" title="https://tustreaming.cl/" style="" allowfullscreen></iframe> 
+            <iframe src="https://medios.tustreaming.cl/edusaurio/" width="100%" height="600%" frameborder="0" scrolling="auto" title="https://tustreaming.cl/" style="" allowfullscreen></iframe> 
         </div>
     </section>
     <section class="site-section" id="section-el-club">
