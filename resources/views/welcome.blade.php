@@ -66,8 +66,8 @@
     </section> <!-- section -->
 
     <section>
-        <div style="background-color: white;"> 
-            <iframe src="https://medios.tustreaming.cl/edusaurio/" width="100%" height="600%" frameborder="0" scrolling="auto" title="https://tustreaming.cl/" style="" allowfullscreen></iframe> 
+        <div style="background-color: white; position: relative; width: 100%; padding-top: 100%;"> 
+            <iframe src="https://medios.tustreaming.cl/edusaurio/" frameborder="0" scrolling="auto" title="https://tustreaming.cl/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen></iframe> 
         </div>
     </section>
     <section class="site-section" id="section-el-club">
