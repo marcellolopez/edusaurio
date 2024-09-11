@@ -35,6 +35,9 @@
 
             <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
                 <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/envivo" onclick="window.open(this.href, '_blank'); return false;">En Vivo</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#section-el-club">El Club</a></li>
                     <li class="nav-item"><a class="nav-link" href="#section-bio">Bio</a></li>
                     <li class="nav-item"><a class="nav-link" href="#section-puzzlesear">Puzzlesear</a></li>
@@ -65,9 +68,17 @@
         </div>
     </section> <!-- section -->
 
-    <section>
-        <div style="background-color: white; position: relative; width: 100%; padding-top: 100%;"> 
-            <iframe src="https://medios.tustreaming.cl/edusaurio/" frameborder="0" scrolling="auto" title="https://tustreaming.cl/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen></iframe> 
+    <section class="contact-section text-center">
+        <div class="row">
+            <!-- Primera columna: Envíanos tu mensaje de voz -->
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <h2>Envíanos tu mensaje de voz</h2>
+            </div>
+            <!-- Segunda columna: Información de WhatsApp -->
+            <div class="col-12 col-md-6 whatsapp-info">
+                <img class="whatsapp-logo" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Logo WhatsApp">
+                <a href="https://wa.me/56923723238" target="_blank" class="whatsapp-text">+56 9 2372 3238</a>
+            </div>
         </div>
     </section>
     <section class="site-section" id="section-el-club">
@@ -477,6 +488,40 @@
 
     .shadow-img2 {
         box-shadow: 5px 5px lightgray
+    }
+
+    .contact-section {
+        background-color: black;
+        color: white;
+        padding: 40px 0; /* Aumenta el padding para más espacio alrededor */
+    }
+
+    .whatsapp-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .whatsapp-logo {
+        width: 40px; /* Tamaño más grande para el logo de WhatsApp */
+        height: 40px;
+        margin-right: 15px; /* Espaciado mayor entre el logo y el texto */
+    }
+
+    .whatsapp-text {
+        font-size: 1.5rem; /* Aumenta el tamaño del texto */
+        font-weight: bold; /* Hace que el texto sea más grueso */
+        color: white; /* Asegura que el texto sea blanco */
+        text-decoration: none; /* Elimina el subrayado del enlace */
+    }
+
+    .whatsapp-text:hover {
+        text-decoration: underline; /* Subraya el texto al pasar el ratón */
+    }
+
+    h2 {
+        font-size: 2rem; /* Aumenta el tamaño del encabezado */
+        margin-bottom: 0; /* Ajusta el margen inferior del encabezado */
     }
 </style>
 

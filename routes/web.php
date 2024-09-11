@@ -18,5 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/envivo', function () {
+    return view('streaming');
+});
+
 //Crea la ruta post llamada 'contact' en el controlador ContactController@enviarCorreoContacto
 Route::post('contact', [ContactController::class, 'enviarCorreoContacto'])->name('contact');
