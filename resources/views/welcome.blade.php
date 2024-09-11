@@ -523,6 +523,10 @@
         font-size: 2rem; /* Aumenta el tamaño del encabezado */
         margin-bottom: 0; /* Ajusta el margen inferior del encabezado */
     }
+
+    body{
+        overflow-x: hidden;
+    }
 </style>
 
 <script>
