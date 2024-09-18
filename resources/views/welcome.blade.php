@@ -18,36 +18,42 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
     <!-- Alertify default theme -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
 
 
 
-    <nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+    <div class="container">
+        <!-- Botón del menú para móviles -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+            aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Ícono "En Vivo" para la vista móvil -->
+        <a class="navbar-live-icon ml-auto d-lg-none" href="/envivo" onclick="window.open(this.href, '_blank'); return false;">
+            <i class="fas fa-broadcast-tower"></i> <!-- Aquí se utiliza el ícono de FontAwesome -->
+        </a>
 
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
-                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-
-            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/envivo" onclick="window.open(this.href, '_blank'); return false;">En Vivo</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#section-el-club">El Club</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section-bio">Bio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section-puzzlesear">Puzzlesear</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section-video">Videos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section-fotos">Fotos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section-contacto">Contacto</a></li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link d-none d-lg-block" href="/envivo" onclick="window.open(this.href, '_blank'); return false;">En Vivo</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#section-el-club">El Club</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-bio">Bio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-puzzlesear">Puzzlesear</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-video">Videos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-fotos">Fotos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-contacto">Contacto</a></li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
 
 
