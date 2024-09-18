@@ -35,7 +35,9 @@
         </button>
         
         <!-- Ícono "En Vivo" para la vista móvil -->
-        <a class="navbar-live-icon ml-auto d-lg-none" href="/envivo" onclick="window.open(this.href, '_blank'); return false;">
+        <a class="navbar-live-icon ml-auto d-lg-none p-2 text-dark border border-dark rounded" href="/envivo" 
+           onclick="window.open(this.href, '_blank'); return false;" style="font-weight: bold;">
+            <strong>En vivo</strong>
             <i class="fas fa-broadcast-tower"></i> <!-- Aquí se utiliza el ícono de FontAwesome -->
         </a>
 
