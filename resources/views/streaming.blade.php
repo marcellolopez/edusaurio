@@ -11,10 +11,11 @@
         html, body {
             height: 100%; /* Asegura que el html y el body ocupen todo el alto de la pantalla */
             margin: 0; /* Elimina los márgenes predeterminados */
+            
         }
 
         .iframe-container {
-            background-color: white;
+            background-color: black;
             position: relative;
             width: 100%;
             height: 100vh; /* Hace que el contenedor ocupe el 100% del alto de la ventana */
@@ -31,11 +32,11 @@
         }
     </style>
 </head>
-<body>
+<body style="">
     <div class="container-fluid p-0">
         <section>
             <div class="iframe-container">
-                <iframe src="https://medios.tustreaming.cl/edusaurio/" scrolling="auto" title="https://tustreaming.cl/" allowfullscreen></iframe>
+                <iframe src=https://v4.tustreaming.cl:2000/VideoPlayer/edusauriotv?autoplay=1" scrolling="auto" title="https://tustreaming.cl/" allowfullscreen></iframe>
             </div>
         </section>
     </div>
